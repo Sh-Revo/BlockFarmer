@@ -2,16 +2,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
     public static PlayerController Instance { get; private set; }
 
-    [Header("Move Referance")]
     [SerializeField] private bool _localMovement;
     [SerializeField] private Transform _transToMove;
     [SerializeField] private float _playerMoveSpeed;
     [SerializeField] private float _minX, _maxX;
-
-    // Move Referance
     private Touch _touch;
     private Vector3 _newPos;
 
