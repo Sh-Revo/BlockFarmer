@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 8826951187986414740}
   - component: {fileID: 8826951187986414741}
   - component: {fileID: 1440611277569086483}
+  - component: {fileID: 5670447180532836987}
+  - component: {fileID: 7436349940637857595}
   m_Layer: 5
   m_Name: CollectCubeText
   m_TagString: Untagged
@@ -114,6 +116,38 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!95 &5670447180532836987
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826951187986414746}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8097ef7fef126d44c916c8a38f7b12ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7436349940637857595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826951187986414746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec631b1bbc8bf554baf5c0fcb22fa139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8826951188373879221
 GameObject:
   m_ObjectHideFlags: 0
